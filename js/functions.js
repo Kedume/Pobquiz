@@ -1,15 +1,17 @@
 function play(num){
-    $("#game")
-    .fadeOut(100)
-    .queue(function(n) {
-        $(this).html('<p><img src="../img/loading.gif"/></p>');
-        n();
-    });
-    
-    $("#game").fadeIn(100).delay(500);
-    $('#game').load('play.php?sec=' + num + '&nickname=' + $("#nickname").val(), function() {
-        $("#game").fadeIn(100);
-    });
+    if($('#nickname').val()!=''){
+        $("#game").fadeOut(100).queue(function(n) {
+            $(this).html('<p><img src="../img/loading.gif"/></p>');
+            n();
+        });
+        
+        $("#game").fadeIn(100).delay(500);
+        $('#game').load('play.php?sec=' + num + '&nickname=' + $("#nickname").val(), function() {
+            $("#game").fadeIn(100);
+        });
+    }else{
+        alert('Debes indicar un nickname');
+    }
 };
 function plays(num,elec){
     $("#game").fadeOut(100).queue(function(n) {

@@ -150,7 +150,7 @@ if($num>1){
     echo "<p class=\"hall\">".$myhall[0][3].". ".$myhall[0][1].": ".$myhall[0][2]."</p>";
     ?>
     <p>
-    <a href="http://twitter.com/?status=He%20jugado%20a%20PobQuiz%20y%20he%20quedado%20en%20la%20<?php echo $myhall[0][3];?>%20posici&oacute;n%20http%3A%2F%2Fpobquiz.skolti.com" target="_blank"><img src="img/twitter.png" alt="Abredatos 2011"/> Tuit&eacute;alo!</a>
+    <a href="http://twitter.com/?status=He%20jugado%20a%20PobQuiz%20y%20he%20quedado%20en%20la%20<?php echo $myhall[0][3];?>%20posici&oacute;n%20http%3A%2F%2Fpobquiz.skolti.com" target="_blank"><img src="img/twitter.png" alt="Abredatos 2011"/> Tuit&eacute;alo!</a> <a href="http://pobquiz.skolti.com">Vuelve a jugar :-)</a>
     </p>
     <?php
     }

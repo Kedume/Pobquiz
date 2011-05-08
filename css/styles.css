@@ -17,7 +17,7 @@ h3 {font-size:20px;margin:0px;padding:0px;}
 #middle {background:#ffffff url("../img/back_middle.png");height:201px;border:0px solid red;}
 
 #middle form {font-size:22px;color:#ffffff;padding-top:30px;}
-#middle p {padding:0px;margin:0px;}
+#middle p {margin: 0 auto;overflow: hidden;padding: 0;width: 700px !important;}
 #middle input {padding: 7px;margin: 4px 5px 15px 5px;background: #fff;min-width: 220px;font-size: 22px;color: #555;border: 1px #ddd solid;-webkit-box-shadow: 0px 0px 4px #aaa;-moz-box-shadow: 0px 0px 4px #aaa;box-shadow: 0px 0px 4px #aaa;-webkit-transition: background 0.3s linear;clear:both;}
 #middle input:hover {background: #eee;}
 #middle input[type="button"] {min-width: 150px; color: #eee;text-transform: uppercase;margin-top: 10px;background-color: #18a5cc;border: none;-webkit-transition: -webkit-box-shadow 0.3s linear;background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#383838), to(#686868));background:  -moz-linear-gradient(25% 75% 90deg,#383838, #686868);-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
@@ -25,7 +25,7 @@ h3 {font-size:20px;margin:0px;padding:0px;}
 #middle p.sol {padding: 20px 20px 0px 20px;color:#cc0000;}
 #middle p.hall {padding: 20px 20px 0px 20px;color:#ffffff;font-size:28px;}
 #middle img {padding: 40px 20px 0px 20px;}
-#middle a, #middle a:link, #middle a:visited, #middle a:hover, #middle a:active {color:#6a6a6a;font-size:35px;padding-top:20px;display:block;text-decoration:none!important;}
+#middle a, #middle a:link, #middle a:visited, #middle a:hover, #middle a:active {color: #6A6A6A;display: block;float: left;font-size: 35px;padding-top: 20px;text-decoration: none !important;width: 340px;line-height:60px;}
 #middle a img {padding:0px!important;vertical-align: middle!important;}
 
 
